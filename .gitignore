@@ -1,0 +1,23 @@
+# ADNI data and derived results must never be committed
+data/
+runs/
+outputs/
+final_result/
+audit/
+manuscript/
+github_push/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.npz
+*.docx
+*.pdf
+*.log
+*.tgz
+*.bundle
+*ByCodex.md
+__pycache__/
+.venv*/
+venv/
+.env
